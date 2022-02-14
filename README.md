@@ -56,12 +56,12 @@ Set a name and if not already existing leave the permission to create a
 new role, that covers all permissions you need to invoke the lambda
 functions
 
-![Specify State machine](media/specify_state_machine.png)
+![Specify State machine](images/specify_state_machine.png)
 
 It might also be advisable to turn on Logs by setting the Log level to
 what you need.
 
-![Set Log level](media/set_log.png)
+![Set Log level](images/set_log.png)
 
 For example ALL
 
