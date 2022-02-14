@@ -14,8 +14,7 @@ This guide links AWS Lambda Functions together with AWS Step Functions.
 
 5.  Then you should see the design interface
 
-> ![Graphical user interface Description automatically generated with
-> low confidence](media/image1.png)
+![Drag necessary actions into Step functions](images/place_lambas.png)
 
 Just add the Invoke Lambda Function Action to the workflow
 
@@ -27,8 +26,7 @@ it is default
 The only thing you need to link to the action is the lambda function you
 want to invoke
 
-![A picture containing rectangle Description automatically
-generated](media/image2.png)
+![Set Lambda function](images/set_function.png)
 
 That can be done here, just open the dropdown and select the latest
 version of your desired lambda function
@@ -42,7 +40,7 @@ invoke and order them accordingly in the design workflow
 
 Should look something like this at the end:
 
-![Diagram Description automatically generated](media/image3.png)
+![Final Step functions](images/final_step_functions.png)
 
 Click next
 
@@ -52,20 +50,18 @@ just click next again
 
  
 
-### Now we specify the settings for the state machine:
+### Now we specify the settings for the State machine:
 
 Set a name and if not already existing leave the permission to create a
 new role, that covers all permissions you need to invoke the lambda
 functions
 
-![Graphical user interface, text, application, email, Teams Description
-automatically generated](media/image4.png)
+![Specify State machine](media/specify_state_machine.png)
 
 It might also be advisable to turn on Logs by setting the Log level to
 what you need.
 
-![Graphical user interface, application Description automatically
-generated](media/image5.png)
+![Set Log level](media/set_log.png)
 
 For example ALL
 
