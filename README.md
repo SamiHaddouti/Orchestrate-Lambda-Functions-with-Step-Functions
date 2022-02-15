@@ -1,7 +1,7 @@
 # Orchestrate-Lambda-Functions-with-Step-Functions
 This guide links AWS Lambda Functions together with AWS Step Functions.
 
-# Set up Step functions to orchestrate Lambda functions
+### Set up Step functions to orchestrate Lambda functions
 
 1.  Go to Step functions and navigate to State Machine
 
