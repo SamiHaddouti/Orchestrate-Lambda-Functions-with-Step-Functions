@@ -14,7 +14,7 @@
 
 5.  Then you should see the design interface
 
-![Drag necessary actions into Step functions](images/place_lambas.png)
+![Drag necessary actions into Step functions](images/place_lambdas.png)
 
 Just add the Invoke Lambda Function Action to the workflow
 
